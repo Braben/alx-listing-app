@@ -1,4 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App
+
+## Overview
+
+The **ALX Listing App** is a simple property listing web application inspired by Airbnb.  
+Its main goal is to provide a platform where users can view and interact with property listings — such as houses, apartments, or rooms — with options to explore details or make bookings.
+
+This project serves as a foundation for building scalable front-end applications using **React + TypeScript**, focusing on reusable components, clean architecture, and modular code organization.
+
+---
+
+### `components/`
+
+Contains reusable UI components used throughout the project.
+
+- **common/Card.tsx:** A reusable Card component for displaying property details such as title, description, and image.
+- **common/Button.tsx:** A reusable Button component used for various actions like “Book Now” or “View Details”.
+
+---
+
+### `interfaces/`
+
+Houses all TypeScript interfaces to ensure strong typing and consistency across components.  
+Currently includes:
+
+- **CardProps** — defines the structure for card-related data.
+- **ButtonProps** — defines the structure for button properties.
+
+---
+
+### `constants/`
+
+Contains global constants and reusable values used across the app, such as API URLs, configuration data, and UI text labels.
+
+---
+
+### `public/assets/`
+
+This directory stores static files such as images, icons, or logos that are used throughout the application.
+
+---
+
+## Getting Started
+
+### Clone the repository
+
+````bash
+git clone https://github.com/braben/alx-listing-app.git
+cd alx-listing-app
+
 
 ## Getting Started
 
@@ -12,7 +61,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
