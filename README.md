@@ -5,7 +5,7 @@
 The **ALX Listing App** is a simple property listing web application inspired by Airbnb.  
 Its main goal is to provide a platform where users can view and interact with property listings — such as houses, apartments, or rooms — with options to explore details or make bookings.
 
-This project serves as a foundation for building scalable front-end applications using **React + TypeScript**, focusing on reusable components, clean architecture, and modular code organization.
+This project serves as a foundation for building scalable front-end applications using **NextJS + TypeScript**, focusing on reusable components, clean architecture, and modular code organization.
 
 ---
 
